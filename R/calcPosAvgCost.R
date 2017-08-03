@@ -21,7 +21,7 @@
 }
 
 .calcPosAvgCost_C <- function(PrevPosQty, PrevPosAvgCost, TxnValue, PosQty, ConMult=1)
-    .Call(C_calcPosAvgCost, PrevPosQty, PrevPosAvgCost, TxnValue, PosQty, ConMult)
+    .Call(calcPosAvgCost, PrevPosQty, PrevPosAvgCost, TxnValue, PosQty, ConMult)
 
 ###############################################################################
 # Blotter: Tools for transaction-oriented trading systems development
